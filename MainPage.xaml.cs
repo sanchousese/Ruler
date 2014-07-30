@@ -16,7 +16,16 @@ namespace Ruler
         public MainPage()
         {
             InitializeComponent();
-            initDrawing();
+            Loaded += delegate
+            {
+                Axes.Height = LayoutRoot.ActualWidth;
+                Axes.Width = LayoutRoot.ActualHeight;
+
+                CanvasForTouching.Height = LayoutRoot.ActualWidth;
+                CanvasForTouching.Width = LayoutRoot.ActualHeight;
+                initDrawing();
+            };
+
             Touch.FrameReported += new TouchFrameEventHandler(Touch_FrameReported);
         }
 
@@ -27,6 +36,8 @@ namespace Ruler
             Touching.setDpi(DrawAxes.getDpi());
             Touching.setCanvas(CanvasForTouching);
         }
+
+
 
         private void Touch_FrameReported(object sender, TouchFrameEventArgs e)
         {

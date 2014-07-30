@@ -45,8 +45,8 @@ namespace Ruler.view
 
         private static void showPoint(Point point)
         {
-            drawLine(0, point.Y, canvas.Width, point.Y);
-            drawLine(point.X, 0, point.X, canvas.Height);
+            drawLine(0, point.Y, canvas.Height, point.Y);
+            drawLine(point.X, 0, point.X, canvas.Width);
 
             drawPoint(point);
         }
