@@ -23,6 +23,7 @@ namespace Ruler
 
                 CanvasForTouching.Height = LayoutRoot.ActualWidth;
                 CanvasForTouching.Width = LayoutRoot.ActualHeight;
+
                 initDrawing();
             };
 

@@ -53,7 +53,7 @@ namespace Ruler.view
             rectangle.Fill = new SolidColorBrush(Colors.White);
             rectangle.Width = number.ActualWidth * 2;
             rectangle.Height = number.ActualWidth;
-            rectangle.Margin = new Thickness(x - number.ActualHeight/2, y - number.ActualHeight, 0, 0);
+            rectangle.Margin = new Thickness(x - number.ActualHeight / 2, y - number.ActualHeight, 0, 0);
 
             canvas.Children.Add(rectangle);
             canvas.Children.Add(number);
@@ -71,7 +71,7 @@ namespace Ruler.view
 
             Rectangle rectangle = new Rectangle();
             rectangle.Fill = new SolidColorBrush(Colors.White);
-            rectangle.Width = number.ActualWidth*2;
+            rectangle.Width = number.ActualWidth * 2;
             rectangle.Height = number.ActualWidth;
             rectangle.Margin = new Thickness(x + number.ActualHeight, y - number.ActualHeight, 0, 0);
             rectangle.RenderTransform = rotate;

@@ -25,9 +25,12 @@ namespace Ruler.view
         {
             for (int i = 1; dpi * i <= realHeight; i++)
             {
-                drawLine(0, dpi * i, realWidth / 8, dpi * i);
-                
-                drawText(i.ToString(), realWidth / 6, dpi * i);
+                if (dpi * i >= realWidth / 8)
+                {
+                    drawLine(0, dpi * i, realWidth / 8, dpi * i);
+
+                    drawText(i.ToString(), realWidth / 6, dpi * i);
+                }
             }
 
             double littleDpi = dpi / 10;
@@ -41,16 +44,20 @@ namespace Ruler.view
         {
             for (int i = 1; dpi * i <= realWidth; i++)
             {
-                 drawLine(dpi * i, 0, dpi * i, realWidth / 8);
+                if (dpi * i >= realWidth / 8)
+                {
+                    drawLine(dpi * i, 0, dpi * i, realWidth / 8);
 
-                 drawText(i.ToString(), dpi * i, realWidth / 6);
+                    drawText(i.ToString(), dpi * i, realWidth / 6);
+
+                }
             }
 
             double littleDpi = dpi / 10;
 
             for (int i = 1; littleDpi * i <= realWidth; i++)
                 if (littleDpi * i >= realWidth / 10)
-                     drawLine(littleDpi * i, 0, littleDpi * i, realWidth / 10);
+                    drawLine(littleDpi * i, 0, littleDpi * i, realWidth / 10);
         }
 
         private static void initSizes()
@@ -58,7 +65,7 @@ namespace Ruler.view
             object temp;
             DeviceExtendedProperties.TryGetValue("PhysicalScreenResolution", out temp);
             var screenResolution = (Size)temp;
-            
+
             DeviceExtendedProperties.TryGetValue("RawDpiX", out temp);
             dpi = (isDpiInInch ? (double)temp : (double)temp / 2.54) * canvas.Height / screenResolution.Height;
             realWidth = canvas.Height;

@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
 
 namespace Ruler.view
 {
@@ -47,9 +42,10 @@ namespace Ruler.view
         {
             drawLine(0, point.Y, canvas.Height, point.Y);
             drawLine(point.X, 0, point.X, canvas.Width);
-
             drawPoint(point);
         }
+
+        
 
         public static void setDpi(double d) { dpi = d; }
     }
