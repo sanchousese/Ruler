@@ -1,12 +1,13 @@
-﻿<xapCache source="C:\Users\Sania_000\documents\visual studio 2013\Projects\Ruler\Ruler\Bin\Debug\Ruler_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="8/1/2014 12:29:27 AM">
-  <file source="C:\Users\Sania_000\documents\visual studio 2013\Projects\Ruler\Ruler\obj\Debug\Ruler.dll" archivePath="Ruler.dll" lastWriteTime="8/1/2014 12:29:26 AM" />
-  <file source="C:\Users\Sania_000\documents\visual studio 2013\Projects\Ruler\Ruler\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="7/26/2014 12:28:21 PM" />
-  <file source="C:\Users\Sania_000\documents\visual studio 2013\Projects\Ruler\Ruler\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="7/26/2014 12:28:20 PM" />
-  <file source="C:\Users\Sania_000\documents\visual studio 2013\Projects\Ruler\Ruler\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="7/26/2014 12:28:21 PM" />
-  <file source="C:\Users\Sania_000\documents\visual studio 2013\Projects\Ruler\Ruler\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="7/26/2014 12:28:21 PM" />
-  <file source="C:\Users\Sania_000\documents\visual studio 2013\Projects\Ruler\Ruler\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="7/26/2014 12:28:21 PM" />
-  <file source="C:\Users\Sania_000\documents\visual studio 2013\Projects\Ruler\Ruler\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="7/29/2014 12:38:19 AM" />
-  <file source="C:\Users\Sania_000\documents\visual studio 2013\Projects\Ruler\Ruler\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="7/26/2014 12:28:21 PM" />
-  <file source="C:\Users\Sania_000\documents\visual studio 2013\Projects\Ruler\Ruler\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="7/26/2014 12:28:20 PM" />
-  <file source="C:\Users\Sania_000\documents\visual studio 2013\Projects\Ruler\Ruler\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="7/29/2014 12:38:20 AM" />
+﻿<xapCache source="C:\Users\Sania_000\Documents\Visual Studio 2013\Projects\Ruler\Ruler\Bin\Debug\Ruler_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="9/12/2014 1:58:04 PM">
+  <file source="C:\Users\Sania_000\Documents\Visual Studio 2013\Projects\Ruler\Ruler\obj\Debug\Ruler.dll" archivePath="Ruler.dll" lastWriteTime="9/12/2014 1:58:02 PM" />
+  <file source="C:\Users\Sania_000\Documents\Visual Studio 2013\Projects\Ruler\Ruler\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="7/26/2014 12:28:21 PM" />
+  <file source="C:\Users\Sania_000\Documents\Visual Studio 2013\Projects\Ruler\Ruler\Assets\background.jpg" archivePath="Assets\background.jpg" lastWriteTime="9/12/2014 1:08:25 PM" />
+  <file source="C:\Users\Sania_000\Documents\Visual Studio 2013\Projects\Ruler\Ruler\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="7/26/2014 12:28:20 PM" />
+  <file source="C:\Users\Sania_000\Documents\Visual Studio 2013\Projects\Ruler\Ruler\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="7/26/2014 12:28:21 PM" />
+  <file source="C:\Users\Sania_000\Documents\Visual Studio 2013\Projects\Ruler\Ruler\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="7/26/2014 12:28:21 PM" />
+  <file source="C:\Users\Sania_000\Documents\Visual Studio 2013\Projects\Ruler\Ruler\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="7/26/2014 12:28:21 PM" />
+  <file source="C:\Users\Sania_000\Documents\Visual Studio 2013\Projects\Ruler\Ruler\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="7/29/2014 12:38:19 AM" />
+  <file source="C:\Users\Sania_000\Documents\Visual Studio 2013\Projects\Ruler\Ruler\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="7/26/2014 12:28:21 PM" />
+  <file source="C:\Users\Sania_000\Documents\Visual Studio 2013\Projects\Ruler\Ruler\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="7/26/2014 12:28:20 PM" />
+  <file source="C:\Users\Sania_000\Documents\Visual Studio 2013\Projects\Ruler\Ruler\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="7/29/2014 12:38:20 AM" />
 </xapCache>

@@ -14,7 +14,10 @@
     shell:SystemTray.IsVisible="False">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="White" RenderTransformOrigin="0.5,0.5">
+    <Grid x:Name="LayoutRoot" RenderTransformOrigin="0.5,0.5">
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="/Assets/background.jpg"/>
+        </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -25,7 +28,11 @@
 
         <Canvas Name="Axes" HorizontalAlignment="Left" Grid.RowSpan="2" VerticalAlignment="Top"></Canvas>
         <Canvas Name="CanvasForTouching" HorizontalAlignment="Left" Grid.RowSpan="2" VerticalAlignment="Top"></Canvas>
-        <Button x:Name="unitOfMeasurement" Content="inch" Foreground="#FF040404" Height="65" Background="#FF46D68E" BorderThickness="0" FontSize="20" Canvas.Left="-15" Canvas.Top="-15" Margin="705,405,10,10" Grid.Row="1" MouseEnter="unitOfMeasurement_MouseEnter" MouseLeave="unitOfMeasurement_MouseLeave" Click="unitOfMeasurement_Click"/>
+        <Button x:Name="unitOfMeasurement" Content="inch" Foreground="White" BorderThickness="0" FontSize="30" Canvas.Left="-15" Canvas.Top="-15" Margin="615,365,45,40" Grid.Row="1" MouseEnter="unitOfMeasurement_MouseEnter" MouseLeave="unitOfMeasurement_MouseLeave" Click="unitOfMeasurement_Click" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/button.gif"/>
+            </Button.Background>
+        </Button>
     </Grid>
 
 </phone:PhoneApplicationPage>
