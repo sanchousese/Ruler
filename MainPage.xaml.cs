@@ -11,6 +11,7 @@ namespace Ruler
 
         private bool isInch = true;
         private bool isDrawingAble = true;
+        private bool isDoubleTouch = false;
 
 
         public MainPage()
@@ -44,6 +45,12 @@ namespace Ruler
         {
             if (isDrawingAble)
             {
+                if (isDoubleTouch)
+                {
+                    isDoubleTouch = false;
+                    return;
+                }
+
                 int pointsNumber = e.GetTouchPoints(CanvasForTouching).Count;
                 TouchPointCollection pointCollection = e.GetTouchPoints(CanvasForTouching);
 
@@ -53,6 +60,7 @@ namespace Ruler
                 }
                 else
                 {
+                    isDoubleTouch = true;
                     Touching.drawSeveralTouches(pointCollection[0].Position, pointCollection[1].Position);
                 }
             }
@@ -65,6 +73,7 @@ namespace Ruler
 
         private void unitOfMeasurement_MouseLeave(object sender, MouseEventArgs e)
         {
+
             isDrawingAble = true;
         }
 
